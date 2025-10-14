@@ -46,5 +46,5 @@ def parse( s : str ) -> list | str :
     return the_transformer.transform( tree )
 
 # --- test
-s = "eq( add(x, 2), mul( 5, add(x,y) ) )"
-print( parse( s ) )
+# s = "eq( add(x, 2), mul( 5, add(x,y) ) )"
+# print( parse( s ) )
