@@ -6,10 +6,13 @@ I made a super simple functional parser in Python. It can parse strings like thi
 For those who need a python parser to convert functional or FOL-style strings to structured datatype in next 10 seconds, so that you need to understand nothing about what's the difference between lexer and parser, or It's just fine if you don't know what context-free grammar or EBNF is.
 
 ## How to use?
-Download the package, copy the directory `simple-fol-parser` to your working directory, then put `import simple-fol-parser as parser`. Here's the code:
+
+!["Guide"](guide.jpg)
+
+Download the package, copy the directory and rename it as `simple_fol_parser` to your working directory, then put `import simple_fol_parser as parser`. Here's the code:
 
 ```python
-import simple-fol-parser as parser
+import simple_fol_parser as parser
 s = "![x,y]( ( add(x, 2) = mul( 5, add(x,y) ) ) => gt(x,y) )"
 x = parser.parse( s )
 print( x )
